@@ -1,0 +1,173 @@
+*
+{
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    margin: 0;
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+    background-color: lightcyan; 
+}
+
+
+
+/*media queries*/
+
+/*Tablet*/
+
+@media (min-width:992px) and (max-width:1200px)
+{
+
+.beef-tile>span
+{
+ 
+    margin-left:46%!important;
+
+}
+
+.sushi-tile>span
+{
+    
+    margin-left:48%!important;
+}
+
+.back-to
+{
+    margin-left: 39%!important;
+    text-decoration: none;
+}
+
+.back-to-beef
+{
+    margin-left: 44%!important;
+    text-decoration: none;
+}
+
+.back-to-sushi
+{
+     margin-left: 47%!important;
+    text-decoration: none;
+}
+}
+
+
+
+
+/*Mobile*/
+
+
+@media (max-width:991px) 
+{
+.chicken-tile>span
+{
+ 
+    margin-left:43%!important;
+
+}
+
+.beef-tile>span
+{
+ 
+    margin-left:46%!important;
+
+}
+.sushi-tile>span
+{
+    
+    margin-left:46%!important;
+}
+
+.back-to,.back-to-beef,.back-to-sushi
+{
+    margin-left: 43%!important;
+    text-decoration: none;
+}
+
+}
+
+.navbar-brand
+{
+    padding-top: 15px;
+}
+.navbar-brand h1
+{
+    
+    font-size: 27px;
+    
+    font-weight: bold;
+    -webkit-text-fill-color:darkslategray;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0.75;
+}
+
+.nav-item
+{
+    text-align: center;
+    margin-bottom: 2px;
+    border: 2px solid black;
+    margin-top: 0;
+    font-weight: 500;
+}
+.navbar
+{
+    background-color: turquoise;
+}
+
+
+.menu  /*Our menu Heading*/
+{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 4%;
+}
+
+/*to make grids*/
+.chicken-tile,.beef-tile,.sushi-tile
+{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.chicken-tile span
+{
+    font-size:20px;
+    font-weight: bold;
+    margin-left:40%;
+}
+.beef-tile span
+{
+    font-size:20px;
+    font-weight: bold;
+    margin-left:42%;
+
+}
+
+.sushi-tile span
+{
+    font-size:20px;
+    font-weight: bold;
+    margin-left:42%;
+}
+
+.chicken-tile p,.beef-tile p,.sushi-tile p
+{
+    text-align: center;
+    margin-top: 8%;
+    font-weight: 500;
+    margin-bottom: 7%;
+}
+
+.back-to,.back-to-beef,.back-to-sushi
+{
+    margin-left: 38%;
+    text-decoration: none;
+}
